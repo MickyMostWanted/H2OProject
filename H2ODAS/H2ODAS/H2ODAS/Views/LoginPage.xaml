@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="H2ODAS.Views.LoginPage" BackgroundImageSource="water3.jpg">
+
+    
+       <ScrollView>
+        <StackLayout VerticalOptions="Center">
+            <Grid Margin="20,0,20,0">
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/> 
+                </Grid.RowDefinitions>
+                
+
+                <Entry Placeholder="Username" x:Name="EntryUsername" Grid.Row="0"/>
+                <Entry Placeholder="Password" x:Name="EntryUserPassword" Grid.Row="1" IsPassword="True"/>
+                <Button Text="Login" Grid.Row="2" Command="{Binding LoginCommand}" BackgroundColor="Blue" TextColor="White" />
+            </Grid>
+       </StackLayout>
+    </ScrollView>
+
+</ContentPage>

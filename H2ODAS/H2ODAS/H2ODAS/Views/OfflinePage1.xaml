@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="H2ODAS.Views.OfflinePage1" BackgroundColor="Aqua">
+    <ScrollView>
+        <StackLayout>
+             <Label Text="We recognise that water is a scarce resource globally and we are passionate about water conservation and sustainability. Rest assured that our non-potable water is ethically obtained and environmentally friendly (contains no pollutants). You too, can make sustainable difference by following these simple water saving tips:"
+               TextColor="Black" FontSize="20" FontAttributes="Bold"></Label>
+       
+             <Label Text="•	Accumulate rainwater or non-potable water for re-use outside like washing the car etc;"   
+               TextColor="Black" FontSize="20" FontAttributes="Bold"></Label>
+        
+             <Label Text="•	Accumulate washing machine water and shower water to flush the toilet;" 
+               TextColor="Black" FontSize="20" FontAttributes="Bold"></Label>
+       
+             <Label Text="•	Ensure that there are no dripping taps or leaks at your residence/business;" 
+               TextColor="Black" FontSize="20" FontAttributes="Bold"></Label>
+       
+             <Label Text="•	Never leave the tap running while you brush your teeth;"
+               TextColor="Black" FontSize="20" FontAttributes="Bold"></Label>
+       
+             <Label Text="•  Find and repair leaks;"
+               TextColor="Black" FontSize="20" FontAttributes="Bold" ></Label>
+      
+             <Label Text="•  Convert to water saving faucets on your taps;" 
+               FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+
+             <Label Text="•  Clean driveways and walkways with a broom intead of a hose; " 
+               FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+
+             <Label Text="•  Water plants during coolest part of the day." 
+               FontSize="20" TextColor="Black" FontAttributes="Bold"></Label>
+
+            <StackLayout>
+                <Image Source="watertip3" />
+
+            </StackLayout>
+            <StackLayout>
+                <Image Source="watertip" />
+                
+            </StackLayout>
+
+            <StackLayout>
+                <Image Source="watertip2" />
+
+            </StackLayout>
+            <StackLayout>
+                <Image Source="watertip4" />
+
+            </StackLayout>
+
+
+        </StackLayout>
+
+       
+    </ScrollView>
+
+
+</ContentPage>
+    

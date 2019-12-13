@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="H2ODAS.Views.AboutUsPage" BackgroundColor="Aqua">
+    <ScrollView>
+        <StackLayout>
+        <Label Text="About Us" HorizontalOptions="Center" FontSize="30" TextColor="Black" FontAttributes="Bold"> </Label>
+        <Label Text= "H2O Delivery and Sustainability is a business that transports non-potable water for your convenience and needs, such as filling or topping up pools and jojo tanks, building works, landscaping, car washes, laundromats, jet cleaning of roofs and paving, industrial use etc. Whatever your needs may be, you can count on us to deliver to your door. We have large tanker trucks and small delivery vans to meet your needs, no quantity is too big or too small. Click on Order now, we are waiting to take your order." 
+               FontSize="25" TextColor="Black"></Label>
+        <Label Text="Our intentions are clean, and our promises are watertight!" TextColor="Black" FontSize="30" Padding="15" FontAttributes="Italic"></Label>
+
+        <StackLayout>
+            <Image Source="watertruck" />
+        </StackLayout>
+
+        <StackLayout>
+            <Image Source="watertruck1" />
+        </StackLayout>
+            <StackLayout>
+                <Image Source="bakkie" />
+            </StackLayout>
+
+            <StackLayout>
+                <Image Source="watertanks" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
